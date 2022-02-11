@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="styles.css" />
+		<title>Document</title>
+	</head>
+	<body>
+		<section class="wrapper">
+			<main class="main">
+				<h1 class="main__h1">Gerador de senhas</h1>
+				<form class="container">
+					<section class="conjunto">
+						<p class="conjunto__p">Senha:</p>
+						<section class="elementos">
+							<input
+								class="elementos__input"
+								type="text"
+								id="senha"
+								autocomplete="off"
+							/>
+						</section>
+					</section>
+					<section class="conjunto">
+						<p class="conjunto__p">Números?</p>
+						<section class="elementos">
+							<input class="elementos__checkbox" type="checkbox" id="numero" />
+							<label class="elementos__label" for="numero">Sim</label>
+						</section>
+					</section>
+					<section class="conjunto">
+						<p class="conjunto__p">Letras minusculas?</p>
+						<section class="elementos custom-checkbox">
+							<input
+								class="elementos__checkbox"
+								type="checkbox"
+								id="minusculas"
+							/>
+							<label class="elementos__label" for="minusculas">Sim</label>
+						</section>
+					</section>
+					<section class="conjunto">
+						<p class="conjunto__p">Letras maiusculas?</p>
+						<section class="elementos custom-checkbox">
+							<input
+								class="elementos__checkbox"
+								type="checkbox"
+								id="maiusculas"
+							/>
+							<label class="elementos__label" for="maiusculas">Sim</label>
+						</section>
+					</section>
+					<section class="conjunto">
+						<p class="conjunto__p">Especiais?</p>
+						<section class="elementos custom-checkbox">
+							<input
+								class="elementos__checkbox"
+								type="checkbox"
+								id="especiais"
+							/>
+							<label class="elementos__label" for="especiais">Sim</label>
+						</section>
+					</section>
+					<section class="conjunto">
+						<p class="conjunto__p">Quantos caracteres?</p>
+						<section class="elementos">
+							<input class="elementos__num" type="number" id="caracteres" />
+						</section>
+					</section>
+					<section class="conjunto">
+						<section class="elementos">
+							<input
+								class="elementos__button"
+								type="button"
+								value="Confirmar"
+								id="botao"
+							/>
+						</section>
+					</section>
+				</form>
+			</main>
+		</section>
+	</body>
+	<script src="index.js"></script>
+</html>
