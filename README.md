@@ -2,12 +2,7 @@
 
 > Esse é um projeto para gerar senhas feito apenas para estudo.
 
-### Ajustes e melhorias
-
-O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
-
-- [ ] Refinamento de CSS
-- [ ] Responsividade Para tablet
+O projeto esta concluido.
 
 ## ☕ Usando Gerador de senha
 
