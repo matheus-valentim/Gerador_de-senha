@@ -160,11 +160,11 @@ body {
 
 @media (max-width: 600px) {
   .wrapper {
-    height: auto;
+    height: 100vh;
+    min-height: 100vh;
   }
   .main {
-    width: 100%;
-    height: auto;
+    width: 90%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -188,10 +188,9 @@ body {
 
 @media (max-width: 950px) {
   .wrapper {
-    height: auto;
+    min-height: 100vh;
   }
   .main {
-    margin: 50px;
     min-height: 50vh;
   }
 }
